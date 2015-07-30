@@ -381,7 +381,17 @@
       "precision": "0",
       "source_file": "Equivalent Children Supported in basic education.csv",
       "tooltip": "{{ Equivalent Children Supported in basic education }}",
-      "type": "number"
+      "type": "number",
+      "choropleth": [
+        {
+          "label": "",
+          "color": "#5c6bc0",
+          "range": [
+            3990221,
+            4987777
+          ]
+        }
+      ]
     },
     "gpe_annual_funding_approvals": {
       "description": "GPE Annual Funding Approvals",
