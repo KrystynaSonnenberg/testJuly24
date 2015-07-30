@@ -623,7 +623,33 @@
       "precision": 2,
       "source_file": "Learning Math Lowest - PASEC.csv",
       "tooltip": "Total: {{ Learning Math Lowest Total - PASEC }}% Boys: {{ Learning Math Lowest Boys - PASEC }}% Girls: {{ Learning Math Lowest Girls - PASEC }}%",
-      "type": "number"
+      "type": "number",
+      "choropleth": [
+        {
+          "label": "",
+          "color": "#42c6da",
+          "range": [
+            14.7004,
+            5
+          ]
+        },
+        {
+          "label": "",
+          "color": "#3cb9ec",
+          "range": [
+            5,
+            11
+          ]
+        },
+        {
+          "label": "",
+          "color": "#42a5f5",
+          "range": [
+            11,
+            14
+          ]
+        }
+      ]
     },
     "learning_math_lowest_total__sacmeq": {
       "description": "Proportion of students who obtained the lowest proficiency levels in reading international standardized assessments. Assessments included are PASEC, SACMEQ, TIMSS, PIRLS and LLECE. ",
@@ -645,7 +671,49 @@
       "precision": 2,
       "source_file": "Learning Math Lowest - TIMS.csv",
       "tooltip": "Total: {{ Learning Math Lowest Total - TIMS }}% Boys: {{ Learning Math Lowest Boys - TIMS }}% Girls: {{ Learning Math Lowest Girls - TIMS }}%",
-      "type": "number"
+      "type": "number",
+      "choropleth": [
+        {
+          "label": "",
+          "color": "#42c6da",
+          "range": [
+            37.9027,
+            8
+          ]
+        },
+        {
+          "label": "",
+          "color": "#3cb9ec",
+          "range": [
+            8,
+            16
+          ]
+        },
+        {
+          "label": "",
+          "color": "#42a5f5",
+          "range": [
+            16,
+            24
+          ]
+        },
+        {
+          "label": "",
+          "color": "#4a80df",
+          "range": [
+            24,
+            32
+          ]
+        },
+        {
+          "label": "",
+          "color": "#5c6bc0",
+          "range": [
+            32,
+            40
+          ]
+        }
+      ]
     },
     "lower_secondary_completion_rate_female": {
       "choropleth": [
@@ -1599,6 +1667,12 @@
         ]
       },
       {
+        "Efficiency": [
+          "Percentage of repeaters in primary Total (%)",
+          "Percentage of repeaters in lower secondary Total (%)"
+        ]
+      },
+      {
         "Teacher effectiveness": [
           "Pupil Teacher Ratio, Primary Education",
           "Pupil Teacher Ratio, Lower Secondary Education",
@@ -1650,12 +1724,6 @@
         "Joint Sector Reviews": [
           "JSRs conducted",
           "JSR report available"
-        ]
-      },
-      {
-        "Efficiency": [
-          "Percentage of repeaters in primary Total (%)",
-          "Percentage of repeaters in lower secondary Total (%)"
         ]
       },
       {
